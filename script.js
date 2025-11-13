@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', () => {
             database = await response.json();
             console.log("Database JSON berhasil di-load.");
             buildSearchIndex();
-            suggestionsList.innerHTML = `<li class="text-gray-400 text-sm">Database A-H siap. Silakan cari...</li>`;
+            suggestionsList.innerHTML = `<li class="text-gray-400 text-sm">Database A-Z siap. Silakan cari...</li>`;
         } catch (error) {
             console.error(error);
             resultsList.innerHTML = `<p class="text-red-400">${error.message}</p>`;

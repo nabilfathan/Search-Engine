@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Search Engine Lokal</title>
-    <link rel="shortcut icon" href="Asset/world.png" type="image/x-icon">
+    <link rel="shortcut icon" href="Asset/web-page.png" type="image/x-icon">
     
-    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./tailwind.js"></script>
     <style>
         /* Mengatur agar 3 kolom utama bisa di-scroll secara independen */
         .main-content {
@@ -42,7 +42,14 @@
     <div class="fixed inset-0 w-full h-full bg-black/50 z-[-1]"></div>
 
     <nav class="fixed top-0 left-0 w-full bg-gray-950/70 shadow-lg z-50 px-6 h-24 flex items-center backdrop-blur-lg border-b border-gray-700/50">
-        <div class="relative w-full max-w-2xl mx-auto">
+    <div class="w-full max-w-screen-xl mx-auto flex items-center justify-between gap-8">
+    
+        <div>
+            <a href="#" class="text-2xl font-medium text-white whitespace-nowrap">
+                𐌔E𐌀R𐌂𐋅 E𐌍Ᏽ𐌉𐌍E
+            </a>
+        </div>
+        <div class="relative w-full max-w-lg">
             <div class="absolute left-4 top-1/2 -translate-y-1/2 text-gray-500">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
                     <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
@@ -52,6 +59,8 @@
                    class="w-full p-4 pl-14 rounded-full bg-gray-900/80 border border-gray-700/60 text-gray-200 
                           focus:outline-none focus:ring-2 focus:ring-blue-400 shadow-lg transition-all duration-300">
         </div>
+        </div>
+        </nav>
     </nav>
 
     <main class="pt-24 p-6 main-content">
@@ -87,8 +96,9 @@
     </main>
     <script src="script.js" defer></script>
     
-    <footer class="w-full py-4 text-center text-sm text-gray-400 border-t border-gray-700/50 mt-12 bg-black/50 backdrop-blur-sm">
-        Dibuat dengan ☕ oleh [Nama Anda]
+    <footer
+        class="w-full py-4 text-center text-xs text-gray-700 border-t border-gray-700/50 mt-12 bg-black/50 backdrop-blur-sm">
+        M.Nabil Alfathan 𐌔E𐌀R𐌂𐋅 E𐌍Ᏽ𐌉𐌍E &copy; 2024. All rights reserved.
     </footer>
 </body>
 </html>
